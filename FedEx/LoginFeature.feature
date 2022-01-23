@@ -1,8 +1,16 @@
 Feature: Login Page
 
-Scenario: Successful Login
-Given user is on Login Screen
-When title of login screen is free CRM
-Then user enter username and password
-Then user clicks on Login button
-And user is on Home screen
+Scenario: Select Location
+Given user has launched the FedEx link
+When choose location popup is available
+When location india is available
+Then user clicks on Engligh button
+Then exit browser
+
+Scenario: Close notification popup
+Given user has launched the FedEx link
+When choose location popup is available
+Then user clicks on Engligh button
+Then user verifies notification popup
+Then user closes the notification popup
+Then exit browser

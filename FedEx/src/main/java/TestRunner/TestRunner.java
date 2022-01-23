@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "E:\\New folder\\D Drive\\javaWorkspace\\FedEx\\LoginFeature.feature"
+		features = "C:\\Users\\Admin\\git\\FedEx\\FedEx\\LoginFeature.feature"
 		,glue={"stepDefination"}
 		)
 public class TestRunner {
